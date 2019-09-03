@@ -1,0 +1,54 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 5em;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  line-height:50px;
+  font-size:1.5vw;
+}
+
+
+
+p{font-size:0.8vw;}
+
+a {text-decoration:none; 
+  color:black;}
+h3{color:#00B078;}
+
+#classname {font-family: helvetica, arial, sans-serif;}
+#classname a{color:#00B078;background:black;}
+#classname a:hover{color:white;}
+
+
+#s,#b,#a,#c {font-family: 'Dancing Script', cursive; font-size:1.5vw;}
+
+
+#s a:hover {background:#3292f9;}
+#b a:hover {background:grey;}
+#a a:hover {background:red;}
+#c a:hover {background:yellow;}
+ 
+
+@media only screen and (max-width: 1000px) {
+  body {font-size:5vw;margin:1em;line-height:30px;}
+  #s,#b,#a,#c {font-size:5vw;}
+  p{font-size:2.5vw;}
+
+}
+
+/**
+a img { display:none; }
+
+#s a:hover img { display:block; width:20%; }
+#b a:hover img { display:block; width:40%; }
+#a a:hover img { display:block; width:60%; }
+
+
+@media (max-width: 700px) {
+#s a:hover img { display:block; width:100%; }
+#b a:hover img { display:block; width:100%; }
+#a a:hover img { display:block; width:100%; }
+}   
+
+

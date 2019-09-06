@@ -40,6 +40,13 @@ a {
     margin: 0 auto;
     position: relative;
 }
+@media (max-width: 700px) {
+.main {
+    width: 90%;
+    min-height: 0px;
+    margin: 0 auto;
+    position: relative;
+    }}
 
 .container > header {
     margin: 10px;
@@ -57,7 +64,15 @@ a {
     color: #323232;
     text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
 }
-
+@media (max-width: 700px) {
+.container > header h1 {
+    font-size: 5vw;
+    line-height: 36px;
+    position: relative;
+    font-weight: 300;
+    color: #323232;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+    }}
 .container > header h2 {
     font-size: 14px;
     font-weight: 300;
